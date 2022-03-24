@@ -83,10 +83,10 @@ public class MidiWriter {
 }
 
 class MidiMessage {
-    private float a;
-    private int b;
-    private int c;
-    private int type;
+    private final float a;
+    private final int b;
+    private final int c;
+    private final int type;
 
     /**
      * @param a    time

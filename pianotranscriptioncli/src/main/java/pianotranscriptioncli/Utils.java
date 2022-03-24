@@ -1,4 +1,4 @@
-package libpianotranscriptioncli;
+package pianotranscriptioncli;
 
 public class Utils {
     public static short[] toShortLE(byte[] bytes) {
